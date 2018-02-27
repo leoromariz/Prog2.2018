@@ -53,8 +53,8 @@ int menu()
   int opc;
   
   printf("***************\n\nCalculadora\n\n***************");
-  printf("\n\n1- Soma\n\n2-Subtração\n\n0-Sair");
-  printf("\n\n***************\n\nEscolha sua Opção:");
+  printf("\n\n1- Soma\n\n2-SubtraÃ§Ã£o\n\n0-Sair");
+  printf("\n\n***************\n\nEscolha sua OpÃ§Ã£o:");
   
   scanf("%d",&opc);
   
