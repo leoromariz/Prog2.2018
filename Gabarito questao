@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	char p1[10];
+	char p2[10];
+	char p3[10];
+	char aux[10];
+	int i;
+	int a,b,c;
+	
+	
+	printf("Entre com a MAIOR frase (1) : ");
+	gets(p1);
+	a=strlen(p1);
+	
+	do
+	{
+	  printf("Entre com a frase MEDIANA (2) : ");
+	  gets(p2);
+	  b=strlen(p2);
+	}while(a<b);
+	
+	do
+	{
+  	printf("Entre com a MENOR frase (3) : ");
+  	gets(p3);
+  	c=strlen(p3);
+	}while(b<c);
+	
+
+	for(i=0;i<c;i++)
+	{
+		printf("%c - %c - %c\n",p3[i],p2[i],p1[i]);
+	}
+	for(i=i;i<b;i++)
+	{
+		printf("    %c - %c\n",p2[i],p1[i]);
+	}
+	for(i=i;i<a;i++)
+	{
+		printf("        %c\n",p1[i]);
+	}
+	return 0;
+}
